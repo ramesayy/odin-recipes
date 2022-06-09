@@ -17,13 +17,12 @@ img {
 }
 #parent   {
     position: relative;
-    z-index: 9;
 }
 
 .recipes    {
-    position: absolute;
-    top: 30px;
-    left: 475px;
+    position: relative;
+    margin-left: 32%;
+    margin-top: -25%;
 }
 .burger {
     font-family: Brush Script MT,cursive;
