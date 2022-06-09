@@ -1,0 +1,74 @@
+h1  {
+    font-size: 75px;
+    color: rgba(0, 0, 0, 0.738);
+    flex: auto;
+    text-align: center;
+    font-family: Brush Script MT,cursive;
+}
+body    {
+    background-color: rgb(241, 213, 161);
+}
+h2  {
+    font-size: 55px;
+    color: rgba(0, 0, 0, 0.738);
+    flex: auto;
+    text-align: center;
+    font-family: Brush Script MT,cursive;
+}
+.text-box  {
+    height: fit-content;
+    width: 400px;
+    text-align: center;
+    display: block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p   {
+    font-family: Apple Chancery, cursive;
+}
+h3  {
+    font-size: 55px;
+    color: rgba(0, 0, 0, 0.738);
+    flex: auto;
+    text-align: center;
+    font-family: Brush Script MT,cursive;
+}
+h4  {
+    font-size: 55px;
+    color: rgba(0, 0, 0, 0.738);
+    flex: auto;
+    text-align: center;
+    font-family: Brush Script MT,cursive;
+}
+.ing    {
+    font-family: Apple Chancery, cursive;
+}
+.steps  {
+    font-family: Apple Chancery, cursive;
+}
+.text-box2  {
+    height: fit-content;
+    width: 400px;
+    text-align: center;
+    display: block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-box3  {
+    height: fit-content;
+    width: 400px;
+    text-align: center;
+    display: block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a   {
+    font-size: 35px;
+    color: rgba(202, 100, 17, 0.738);
+    flex: auto;
+    text-align: center;
+    font-family: Brush Script MT,cursive;
+}

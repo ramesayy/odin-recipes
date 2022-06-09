@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza</title>
+    <link rel="stylesheet" href="pizza.css">
     <style>
         img{
-            width: 300px;
-            height: 300px;
+            display: block;
+            height: 400px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -16,25 +20,35 @@
     <h1> Pizza</h1>
     <img src="pizza.jpg" alt="Homemade Pizza" >
     <h2> Description</h2>
-    <p> Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients,
-         baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.
-    </p>
+    <div class="text-box">
+        <p> Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients,
+            baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.
+       </p>
+    </div>
+    
     <h3>Ingredients</h3>
-    <ul>
-        <li>Dough</li>
-        <li>Pepperoni</li>
-        <li>Ham</li>
-        <li>Tomatoes</li>
-        <li>Mozzarella</li>
-        <li>Sauces of your choice</li>
-        <li>Spices (salt, pepper etc)</li>
-    </ul>
+    <div class="text-box2">
+        <ul class="ing">
+            <li>Dough</li>
+            <li>Pepperoni</li>
+            <li>Ham</li>
+            <li>Tomatoes</li>
+            <li>Mozzarella</li>
+            <li>Sauces of your choice</li>
+            <li>Spices (salt, pepper etc)</li>
+        </ul>
+    </div>
+    
     <h4>Steps</h4>
-    <ol>
-        <li>Prepare the dough</li>
-        <li>Put the sauce on the dough</li>
-        <li>Put the mozzarella on </li>
-        <li>Put everything together, plus mozzarella again</li>
-    </ol>
+    <div class="text-box3">
+        <ol class="steps">
+            <li>Prepare the dough</li>
+            <li>Put the sauce on the dough</li>
+            <li>Put the mozzarella on </li>
+            <li>Put everything together, plus mozzarella again</li>
+        </ol>
+        <a href="../index.html">Return to main page</a>
+    </div>
+    
 </body>
 </html>
